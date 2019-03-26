@@ -11,3 +11,6 @@ Projeto de estudo e pesquisa sobre Type Script Básico
 
 ## O Projeto
 ### Este projeto serve apenas para servir alguns exemplos de uso do TypeScript como material de consulta.
+
+#### Você pode testar os comandos TypeScript acessando direto o site oficial, na sessão Playground:
+https://www.typescriptlang.org/play/index.html
