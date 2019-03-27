@@ -37,7 +37,7 @@ class Animal implements IAnimal {
   
   //setters
   set idade(novaIdade: number) {
-    if(!novaIdade || novaIdade < 0) throw new Error("Idade inválida");
+    if(!novaIdade || novaIdade < 0) throw new Error("Idade inválida.");
 
     this._idade = novaIdade;
     this._estaVivo = true;
