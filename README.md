@@ -2,7 +2,7 @@
 Projeto de estudo e pesquisa sobre Type Script Básico
 
 ## Definição
-### O TypeScript não é uma linguagem, e sim, um super set, criado pelo Windows, ou seja, você escreve em Type Script mas depois o código é convertido em outra linguagem. 
+### O TypeScript não é uma linguagem, e sim, um super set, criado pela Microsoft, que você escreve em Type Script mas depois o código é convertido em outra linguagem. 
 
 ## Detalhes
 1. Forncece a tipagem de dados, ajudando a produtividade.
