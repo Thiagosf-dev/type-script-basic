@@ -65,7 +65,15 @@ class Animal implements IAnimal {
 
 }
 
-let cachorro: Animal = new Animal("Tótó", 3);
+class Cachorro extends Animal {
+  
+  latir(): void {
+    alert("O cachorro latiu");
+  }
+
+}
+
+let cachorro: Cachorro = new Cachorro("Tótó", 3);
 cachorro.nascer();
 alert(cachorro.estaVivo);
 
@@ -79,6 +87,8 @@ alert(cachorro.nome);
 
 cachorro.crescer();
 alert(cachorro.idade);
+
+cachorro.latir();
 
 cachorro.morrer();
 alert(cachorro.estaVivo);
